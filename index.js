@@ -105,8 +105,8 @@ function getAnswer() {
 function getScore() {
     if (userScore === 3 || computerScore === 3) {
         if (userScore > computerScore) {
-            alert(`${userName} 'Congratulations. You won this game. 
-            Count - ${userName}- ${userScore} : Computer ${computerScore}'`);
+            alert(`${userName} Congratulations. You won this game. 
+            Count - ${userName}- ${userScore} : Computer ${computerScore}`);
             startNewGame();
         } else if (computerScore > userScore) {
             alert(`Sorry. ${userName} You lost this game.
